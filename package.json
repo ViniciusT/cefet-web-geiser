@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "name": "package",
+  "description": "Um mostruário de algumas pessoas que ficam fritando seus PCs. Há uma página que mostra essas pessoas e outra com detalhes sobre o que elas andam fazendo com seus computadores.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Ferrou deu erro\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusT/cefet-web-geiser.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "vinicius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusT/cefet-web-geiser/issues"
+  },
+  "homepage": "https://github.com/ViniciusT/cefet-web-geiser#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "hbs": "^4.0.1",
+    "underscore": "^1.8.3"
+  }
+}
