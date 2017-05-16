@@ -9,8 +9,8 @@ app.set('views', 'server/views');
 // você pode colocar o conteúdo dos arquivos json no objeto "db" logo abaixo
 // dica: 3-4 linhas de código (você deve usar o módulo de filesystem (fs))
 var db = {
-    jogador: JSON.parse(fs.readFileSync('/Users/vinicius/Desktop/cefet-geiser/cefet-web-geiser/server/data/jogadores.json')),
-    jogosPJogador: JSON.parse(fs.readFileSync('/Users/vinicius/Desktop/cefet-geiser/cefet-web-geiser/server/data/jogosPorJogador.json'))
+    jogador: JSON.parse(fs.readFileSync(__dirname + '/data/jogadores.json')),
+    jogosPJogador: JSON.parse(fs.readFileSync(__dirname + '/data/jogadores.json'))
 
 };
 
